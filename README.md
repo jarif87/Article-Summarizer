@@ -26,3 +26,13 @@
 
 <img src = "notebooks/article_len.png" width="700" height="500">
 
+
+
+# Model Deployment
+The text summarization model has been deployed on the HuggingFace Spaces Gradio App. You can access the implementation either by going to the deployment folder or directly through the provided [link](https://huggingface.co/spaces/jarif/Summarization) to the application.
+
+<img src = "deployment/gradio_app_1.png" width="700" height="500">
+
+
+<img src = "notebooks/gradio_app_2.png" width="700" height="500">
+
