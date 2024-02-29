@@ -7,3 +7,22 @@ Utilizing Hugging Face Transformers and Blurr, I streamlined data scraping and t
 
 
 <img src = "notebooks/highlights.png" width="700" height="500">
+
+
+
+
+<img src = "notebooks/highlights_words.png" width="700" height="500">
+
+
+
+
+<img src = "notebooks/article_words.png" width="700" height="500">
+
+
+
+<img src = "notebooks/highlights_len.png" width="700" height="500">
+
+
+
+<img src = "notebooks/article_len.png" width="700" height="500">
+
