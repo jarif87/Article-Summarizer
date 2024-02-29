@@ -36,3 +36,7 @@ The text summarization model has been deployed on the HuggingFace Spaces Gradio 
 
 <img src = "deployment/gradio_app_2.png" width="700" height="500">
 
+
+# Web Deployment
+
+***I've developed a Flask application specifically for text summarization. It's designed to take input text and generate a condensed summary. You're invited to explore the Flask branch to delve into the implementation details further. To try out the application in real-time, simply visit the live website accessible through the provided [link]().***
