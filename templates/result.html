@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Summarization Result</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9; /* Light gray background */
+        }
+
+        .head {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            height: 5ch;
+            background-color: #2c3e50; /* Dark blue-gray */
+            color: #fff; /* White text */
+            margin-bottom: 20px;
+            border-bottom-left-radius: 10px; /* Rounded corners */
+            border-bottom-right-radius: 10px;
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh; /* Adjusted height */
+            font-size: 25px;
+        }
+
+        #container {
+            max-width: 800px; /* Adjusted max-width */
+            background-color: #fff; /* White background */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #text {
+            height: 200px; /* Increased height for better readability */
+            width: 100%;
+            font-size: 20px;
+            margin-bottom: 10px;
+            resize: vertical; /* Allow vertical resizing */
+            border: 1px solid #ddd; /* Light gray border */
+            border-radius: 5px; /* Rounded corners */
+            padding: 10px; /* Add padding */
+            box-sizing: border-box; /* Include padding and border in width */
+        }
+
+        #output_text {
+            font-size: 18px; /* Reduced font size for better readability */
+            line-height: 1.6; /* Improved line spacing */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head"><b>Text Summarization Result</b></div>
+    <div class="center">
+        <div id="container">
+            <label for="text"><b>Input Text</b></label> <br />
+            <textarea id="text" name="text" readonly>{{ input_text }}</textarea> <br /> <br />
+            <label for="text"><b>Summary</b></label> <br />
+            <div id="output_text">{{ output_text }}</div>
+        </div>
+    </div>
+</body>
+
+</html>
