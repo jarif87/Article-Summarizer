@@ -34,5 +34,5 @@ The text summarization model has been deployed on the HuggingFace Spaces Gradio 
 <img src = "deployment/gradio_app_1.png" width="700" height="500">
 
 
-<img src = "notebooks/gradio_app_2.png" width="700" height="500">
+<img src = "deployment/gradio_app_2.png" width="700" height="500">
 
