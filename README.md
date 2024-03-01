@@ -40,6 +40,19 @@
 |---|---|---|---|
 |0.91|0.90|0.97|0.93|
 
+***distilbart-cnn-12-6***
+
+|accuracy|precision|recall|f1|
+|---|---|---|---|
+|0.90|0.89|0.97|0.93|
+
+
+***facebook/bart-large-cnn***
+
+|accuracy|precision|recall|f1|
+|---|---|---|---|
+|0.90|0.89|0.97|0.93|
+
 
 
 # Model Deployment
