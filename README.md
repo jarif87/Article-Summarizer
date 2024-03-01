@@ -27,8 +27,23 @@
 <img src = "notebooks/article_len.png" width="700" height="500">
 
 
+# Model Training
+
+***I have trained three models for text summarization: distilbart-cnn-6-6, distilbart-cnn-12-6, and facebook/bart-large-cnn. Out of these, I've deployed the distilbart-cnn-12-6 model, which is a transformer model from Hugging Face.For implementing text summarization, I utilized the Blurr library along with Fastai. All the notebooks detailing the training and deployment process for these models are available [here](https://github.com/jarif87/Text-Summarizer/tree/main/notebooks).Feel free to explore the notebooks to understand the methodologies and techniques employed in training and deploying these models for text summarization.***
+
+
+# Model Performance
+
+***distilbart-cnn-6-6***
+
+|accuracy|precision|recall|f1|
+|---|---|---|---|
+|0.91|0.90|0.97|0.93|
+
+
 
 # Model Deployment
+
 The text summarization model has been deployed on the HuggingFace Spaces Gradio App. You can access the implementation either by going to the deployment folder or directly through the provided [link](https://huggingface.co/spaces/jarif/Summarization) to the application.
 
 <img src = "deployment/gradio_app_1.png" width="700" height="500">
