@@ -27,6 +27,11 @@
 <img src = "notebooks/article_len.png" width="700" height="500">
 
 
+# Data Collection
+
+I've collected 8176 articles and their highlights from the Daily Mail [website](https://www.dailymail.co.uk/home/index.html). The goal is to train a text summarization model that can generate brief summaries for given articles. By utilizing advanced techniques and libraries like Hugging Face's Transformers, along with tools like Blurr and Fastai, I aim to create an efficient summarization system. The aim is to develop a solution that automatically produces concise and informative summaries, aiding readers in understanding the key points of the articles quickly.
+
+
 # Model Training
 
 ***I have trained three models for text summarization: distilbart-cnn-6-6, distilbart-cnn-12-6, and facebook/bart-large-cnn. Out of these, I've deployed the distilbart-cnn-12-6 model, which is a transformer model from Hugging Face.For implementing text summarization, I utilized the Blurr library along with Fastai. All the notebooks detailing the training and deployment process for these models are available [here](https://github.com/jarif87/Text-Summarizer/tree/main/notebooks).Feel free to explore the notebooks to understand the methodologies and techniques employed in training and deploying these models for text summarization.***
