@@ -1,83 +1,40 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Summarization</title>
     <style>
         body {
-            background-color: #f9f9f9; /* Light gray */
-            font-family: 'Arial', sans-serif;
+            font-family: Arial, sans-serif;
+            background-color: navy; /* Updated background color to navy */
             margin: 0;
             padding: 0;
-        }
-
-        .head {
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 30px;
-            height: 5ch;
-            background-color: #ff6f61; /* Tomato red */
-            border-radius: 10px 10px 0 0;
-            color: #fff; /* White text */
+            height: 100vh; /* Full viewport height */
         }
 
-        .center {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            font-size: 25px;
-        }
-
-        form {
-            height: 500px;
-            width: 1000px;
-            background-color: #f0f8ff; /* Alice blue */
+        .iframe-container {
+            max-width: 1000px; /* Limit maximum width */
+            width: 100%;
+            height: 100%;
             padding: 20px;
-            border-radius: 10px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+            box-sizing: border-box;
         }
 
-        #text {
-            height: 200px;
-            width: 600px;
-            font-size: 20px;
-            margin-bottom: 20px;
-            border-radius: 5px;
-            border: 1px solid #b0e0e6; /* Light steel blue */
-            padding: 10px;
-            resize: none; /* Disable textarea resizing */
-        }
-
-        input[type="submit"] {
-            font-size: 20px;
-            padding: 10px 20px;
-            background-color: #ff6f61; /* Tomato red */
+        iframe {
+            width: 100%;
+            height: 100%;
+            max-width: 1000px; /* Adjusted iframe max width to 1000px */
             border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            color: #fff; /* White text */
-        }
-
-        input[type="submit"]:hover {
-            background-color: #ff433d; /* Darker red on hover */
         }
     </style>
 </head>
-
 <body>
-    <div class="head"><b>Text Summarization</b></div>
-    <div class="center">
-        <form action="/" method="post">
-            <label for="text"><b>Enter Text to Summarize</b></label> <br />
-            <textarea id="text" name="text"></textarea> <br />
-            <input type="submit" value="Summarize">
-        </form>
+    <div class="iframe-container">
+        <iframe src="https://jarif-summarization.hf.space" frameborder="0" width="1000" height="450"></iframe>
     </div>
 </body>
-
 </html>
