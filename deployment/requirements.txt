@@ -1,5 +1,5 @@
 
-gradio==3.17.0
+gradio==4.37.2
 ohmeow-blurr==1.0.5
 torch==1.13.1
 transformers==4.38.1
